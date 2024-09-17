@@ -1,0 +1,36 @@
+{
+  "fieldSets": [
+    {
+      "fields": [
+        {
+          "label": "Escolha o Gráfico",
+          "name": "graficoEscolhido",
+          "type": "select",
+          "typeOptions": {
+            "validValues": [
+              {
+                "label": "Gráfico de Barras Empilhadas",
+                "value": "grafico_stacked_bar"
+              },
+              {
+                "label": "Gráfico de Colunas",
+                "value": "grafico_colunas_descricao"
+              },
+              {
+                "label": "Gráfico de Áreas",
+                "value": "grafico_area"
+              }
+            ]
+          },
+          "defaultValue": "stackedBar"
+        },
+        {
+          "label": "Habilitar Collapse",
+          "name": "habilitarCollapse",
+          "type": "checkbox",
+          "defaultValue": false
+        }
+      ]
+    }
+  ]
+}

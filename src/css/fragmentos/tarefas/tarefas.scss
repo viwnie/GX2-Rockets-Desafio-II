@@ -1,0 +1,63 @@
+.TarefasContainer {
+  .header {
+    background: var(--tarefas-header);
+  }
+
+  .bodyTarefa {
+    background: var(--tarefas-body);
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    font-size: 18px;
+    transition: 0.2s;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .pending {
+    background-color: var(--tarefas-pendente);
+  }
+
+  .pending:hover {
+    background-color: color-mix(in srgb, var(--tarefas-pendente) 80%, transparent);
+  }
+
+  .inProgress {
+    background-color: var(--tarefas-progress);
+  }
+
+  .inProgress:hover {
+    background-color: color-mix(in srgb, var(--tarefas-progress) 80%, transparent);
+  }
+
+  .completed {
+    background-color: var(--tarefas-concluida);
+
+    .objetivo {
+      text-decoration: line-through;
+    }
+  }
+
+  .completed:hover {
+    background-color: color-mix(in srgb, var(--tarefas-concluida) 80%, transparent);
+  }
+
+  #filterStatus {
+    width: 150px;
+  }
+
+  #filterDate {
+    width: 180px;
+  }
+}

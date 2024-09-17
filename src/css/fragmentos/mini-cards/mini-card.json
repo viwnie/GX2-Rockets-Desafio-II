@@ -1,0 +1,35 @@
+{
+  "fieldSets": [
+    {
+      "fields": [
+        {
+          "label": "Escolha Sua Cotação",
+          "name": "fiatIcon",
+          "type": "select",
+          "typeOptions": {
+            "validValues": [
+              {
+                "label": "$ Dollar",
+                "value": "USD-BRL,,,"
+              },
+              {
+                "label": "€ Euro",
+                "value": "EUR-BRL"
+              },
+              {
+                "label": "¥ Yen",
+                "value": "JPY-BRL"
+              },
+              {
+                "label": "₿ Bitcoin",
+                "value": "BTC-BRL"
+              }
+            ]
+          },
+          "defaultValue": "USD-BRL"
+        }
+      ],
+      "label": "Currency Settings"
+    }
+  ]
+}

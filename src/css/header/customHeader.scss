@@ -1,0 +1,89 @@
+.search-persolnalizado {
+    #p_p_id_com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet_INSTANCE_templateSearch_ {
+        @media (max-width: 767.9px) {
+            width: 100% !important;
+        }
+    }
+}
+
+.lexicon-icon.lexicon-icon-user {
+    use {
+        color: black !important;
+    }
+}
+
+.titulo-principal {
+    font-family: "Kanit", sans-serif;
+    background: linear-gradient(to right,
+            var(--titulo-gradient-primeira-cor) 20%,
+            var(--titulo-gradient-segunda-cor) 30%,
+            var(--titulo-gradient-terceira-cor) 70%,
+            var(--titulo-gradient-quarta-cor) 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+}
+
+.hambuguer-personalizado {
+    padding: 0.25rem 0.25rem !important;
+    border: none !important;
+}
+
+#banner {
+    .text-truncate {
+        color: var(--text-color);
+    }
+    .navbar > .container-xl, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar .container, .navbar .container-fluid{
+        background-color: transparent !important;
+    }
+}
+
+.navbar {
+    background-color: var(--header-color);
+}
+
+.navbar-links{
+    background-color: var(--header-mini-color-mobile);
+    height: 50px;
+    @media (max-width:767.9px) {
+        background-color: var(--header-color-mobile);
+        height: auto;
+    }
+}
+
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+@media (max-width: 767.9px) {
+    .section-do-body {
+        margin-top: 100px !important;
+    }
+}
+
+@media (max-width: 555px) {
+    .titulo-principal {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 455px) {
+    .titulo-principal {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 355px) {
+    .titulo-principal {
+        font-size: 1.3rem;
+    }
+}

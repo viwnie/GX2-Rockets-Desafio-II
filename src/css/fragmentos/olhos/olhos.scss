@@ -1,0 +1,23 @@
+.eye-container {
+  display: flex;
+  gap: 50px;
+}
+
+.eye {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--olhos);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pupil {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--pupilas);
+  transition: background-color 0.3s ease;
+}

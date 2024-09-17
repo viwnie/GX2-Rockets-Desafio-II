@@ -1,0 +1,27 @@
+.mini-card {
+  background: var(--mini-card-fundo);
+  border-radius: 10px;
+  padding: 20px;
+  height: 100px;
+  width: 100%;
+  position: relative;
+  overflow: visible !important;
+  margin: 30px auto auto auto;
+
+  .container-icone {
+    width: 80px;
+    height: 71px;
+    position: relative;
+    border-radius: 8px;
+    top: -30px;
+    margin-bottom: -50px;
+    background: var(--mini-card-fundo-secundario);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .textoContainer {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,556 @@
+{
+  "frontendTokenCategories": [
+    {
+      "frontendTokenSets": [
+        {
+          "frontendTokens": [
+            {
+              "defaultValue": "#ffffff",
+              "editorType": "ColorPicker",
+              "label": "Cor do Header",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "headerColor"
+                }
+              ],
+              "name": "headerColor",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#7953cd",
+              "editorType": "ColorPicker",
+              "label": "Primeira Cor do Titulo",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "titulo-cor-um"
+                }
+              ],
+              "name": "titulo-cor-um",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#00affa",
+              "editorType": "ColorPicker",
+              "label": "Segunda Cor do Titulo",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "titulo-cor-dois"
+                }
+              ],
+              "name": "titulo-cor-dois",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#0190cd",
+              "editorType": "ColorPicker",
+              "label": "Terceira Cor do Titulo",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "titulo-cor-tres"
+                }
+              ],
+              "name": "titulo-cor-tres",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#764ada",
+              "editorType": "ColorPicker",
+              "label": "Quarta Cor do Titulo",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "titulo-cor-quatro"
+                }
+              ],
+              "name": "titulo-cor-quatro",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#ffffff",
+              "editorType": "ColorPicker",
+              "label": "Primeira Cor do Titulo [tema Dark]",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "titulo-cor-um-dark"
+                }
+              ],
+              "name": "titulo-cor-um-dark",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#ffffff",
+              "editorType": "ColorPicker",
+              "label": "Segunda Cor do Titulo [tema Dark]",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "titulo-cor-dois-dark"
+                }
+              ],
+              "name": "titulo-cor-dois-dark",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#ffffff",
+              "editorType": "ColorPicker",
+              "label": "Terceira Cor do Titulo  [tema Dark]",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "titulo-cor-tres-dark"
+                }
+              ],
+              "name": "titulo-cor-tres-dark",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#ffffff",
+              "editorType": "ColorPicker",
+              "label": "Quarta Cor do Titulo  [tema Dark]",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "titulo-cor-quatro-dark"
+                }
+              ],
+              "name": "titulo-cor-quatro-dark",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#ffffff",
+              "editorType": "ColorPicker",
+              "label": "Cor da Lista de paginas",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "headerColorList"
+                }
+              ],
+              "name": "headerColorList",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#ffffff",
+              "editorType": "ColorPicker",
+              "label": "Cor do Footer",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "footerColor"
+                }
+              ],
+              "name": "footerColor",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#000000",
+              "editorType": "ColorPicker",
+              "label": "Cor do Texto",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "secundaryColor"
+                }
+              ],
+              "name": "secundaryColor",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#DEE4E7",
+              "editorType": "ColorPicker",
+              "label": "Cor do Fundo",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "backgroundColor"
+                }
+              ],
+              "name": "backgroundColor",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#0056b3",
+              "editorType": "ColorPicker",
+              "label": "Cor do Collapse",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "colapse-bg-color"
+                }
+              ],
+              "name": "colapse-bg-color",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#0056b3",
+              "editorType": "ColorPicker",
+              "label": "Cor do Collapse [Tema Dark]",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "colapse-bg-color-dark"
+                }
+              ],
+              "name": "colapse-bg-color-dark",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#1f2937",
+              "editorType": "ColorPicker",
+              "label": "Cor do Header [tema Dark]",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "headerColorDark"
+                }
+              ],
+              "name": "headerColorDark",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#3a485b",
+              "editorType": "ColorPicker",
+              "label": "Cor da Lista de paginas [tema Dark]",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "headerColorDarkList"
+                }
+              ],
+              "name": "headerColorDarkList",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#3a485b",
+              "editorType": "ColorPicker",
+              "label": "Cor do Footer [tema Dark]",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "footerColorDark"
+                }
+              ],
+              "name": "footerColorDark",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#ffffff",
+              "editorType": "ColorPicker",
+              "label": "Cor do Texto [tema Dark]",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "secundaryColorDark"
+                }
+              ],
+              "name": "secundaryColorDark",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#1f2937",
+              "editorType": "ColorPicker",
+              "label": "Cor do Fundo [tema Dark]",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "backgroundColorDark"
+                }
+              ],
+              "name": "backgroundColorDark",
+              "type": "String"
+            },
+            {
+              "defaultValue": "sans-serif",
+              "label": "Estilo da Fonte Principal",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "fontFamily"
+                }
+              ],
+              "name": "fontFamily",
+              "type": "String",
+              "validValues": [
+                {
+                  "label": "sans-serif",
+                  "value": "sans-serif"
+                },
+                {
+                  "label": "monospace",
+                  "value": "Courier New"
+                }
+              ]
+            }
+          ],
+          "label": "Componentes Globais",
+          "name": "componentes_globais"
+        }
+      ],
+      "label": "Estilo Global",
+      "name": "estilo_Global"
+    },
+    {
+      "frontendTokenSets": [
+        {
+          "frontendTokens": [
+            {
+              "defaultValue": "#ffffff",
+              "editorType": "ColorPicker",
+              "label": "Olho",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "olho"
+                }
+              ],
+              "name": "olho",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#ffffff",
+              "editorType": "ColorPicker",
+              "label": "Olho [Tema Dark]",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "olhoColorDark"
+                }
+              ],
+              "name": "olhoColorDark",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#000000",
+              "editorType": "ColorPicker",
+              "label": "Pupila",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "pupila"
+                }
+              ],
+              "name": "pupila",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#000000",
+              "editorType": "ColorPicker",
+              "label": "Pupila [tema Dark]",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "pupilaColorDark"
+                }
+              ],
+              "name": "pupilaColorDark",
+              "type": "String"
+            }
+          ],
+          "label": "Olhos",
+          "name": "olhos"
+        },
+        {
+          "frontendTokens": [
+            {
+              "defaultValue": "#0000002b",
+              "editorType": "ColorPicker",
+              "label": "Cor do Fundo Principal",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "miniCardCorDoFundo"
+                }
+              ],
+              "name": "miniCardCorDoFundo",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#0000002b",
+              "editorType": "ColorPicker",
+              "label": "Cor do Fundo Principal [Tema Dark]",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "miniCardCorDoFundoDark"
+                }
+              ],
+              "name": "miniCardCorDoFundoDark",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#ffffff",
+              "editorType": "ColorPicker",
+              "label": "Pupila",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "miniCardCorDoFundoSecundario"
+                }
+              ],
+              "name": "miniCardCorDoFundoSecundario",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#000000",
+              "editorType": "ColorPicker",
+              "label": "Cor do fundo Secundario [tema Dark]",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "miniCardCorDoFundoSecundarioDark"
+                }
+              ],
+              "name": "miniCardCorDoFundoSecundarioDark",
+              "type": "String"
+            }
+          ],
+          "label": "Mini Card",
+          "name": "mini-card"
+        },
+        {
+          "frontendTokens": [
+            {
+              "defaultValue": "#0000002b",
+              "editorType": "ColorPicker",
+              "label": "Cor do Header",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "tarefas-cor-header"
+                }
+              ],
+              "name": "tarefas-cor-header",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#0000002b",
+              "editorType": "ColorPicker",
+              "label": "Cor do Header [Tema Dark]",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "tarefas-cor-header-dark"
+                }
+              ],
+              "name": "tarefas-cor-header-dark",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#0000002b",
+              "editorType": "ColorPicker",
+              "label": "Cor Do Body",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "tarefas-cor-body"
+                }
+              ],
+              "name": "tarefas-cor-body",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#0000002b",
+              "editorType": "ColorPicker",
+              "label": "Cor Do Body [tema Dark]",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "tarefas-cor-body-dark"
+                }
+              ],
+              "name": "tarefas-cor-body-dark",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#f4ffa2",
+              "editorType": "ColorPicker",
+              "label": "Cor Tarefa Pendente",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "tarefas-pendentes"
+                }
+              ],
+              "name": "tarefas-pendentes",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#f4ffa2",
+              "editorType": "ColorPicker",
+              "label": "Cor Tarefa Pendente [tema Dark]",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "tarefas-pendentes-dark"
+                }
+              ],
+              "name": "tarefas-pendentes-dark",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#9ae6ff",
+              "editorType": "ColorPicker",
+              "label": "Cor Tarefa Em Progresso",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "tarefas-progresso"
+                }
+              ],
+              "name": "tarefas-progresso",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#9ae6ff",
+              "editorType": "ColorPicker",
+              "label": "Cor Tarefa Em Progresso [tema Dark]",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "tarefas-progresso-dark"
+                }
+              ],
+              "name": "tarefas-progresso-dark",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#85ff85",
+              "editorType": "ColorPicker",
+              "label": "Cor Tarefa Concluida",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "tarefas-concluidas"
+                }
+              ],
+              "name": "tarefas-concluidas",
+              "type": "String"
+            },
+            {
+              "defaultValue": "#85ff85",
+              "editorType": "ColorPicker",
+              "label": "Cor Tarefa Concluida [tema Dark]",
+              "mappings": [
+                {
+                  "type": "cssVariable",
+                  "value": "tarefas-concluidas-dark"
+                }
+              ],
+              "name": "tarefas-concluidas-dark",
+              "type": "String"
+            }
+          ],
+          "label": "tarefas",
+          "name": "tarefas"
+        }
+      ],
+      "label": "Fragmentos",
+      "name": "fragmentos"
+    }
+  ]
+}

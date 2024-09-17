@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+@import 'liferay-font-awesome/scss/font-awesome';
+@import 'liferay-font-awesome/scss/glyphicons';
+@import './body/body.scss';
+@import './header/customHeader.scss';
+@import './footer/customFooter.scss';
+@import './header/ButtonLightDark/buttonLightDark.scss';
+@import './fragmentos/main.scss';
+
+[data-theme="light"] {
+  //pagina Estilo Global
+  --titulo-gradient-primeira-cor: var(--titulo-cor-um);
+  --titulo-gradient-segunda-cor: var(--titulo-cor-dois);
+  --titulo-gradient-terceira-cor: var(--titulo-cor-tres);
+  --titulo-gradient-quarta-cor: var(--titulo-cor-quatro);
+  --header-color: var(--headerColor);
+  --header-color-mobile: var(--headerColorList);
+  --header-mini-color-mobile: var(--headerColorList);
+  --fundo: var(--backgroundColor);
+  --footer-color: var(--footerColor);
+  --text-color: var(--secundaryColor);
+  --colapse-color: var(--colapse-bg-color);
+  //fragmento-olhos
+  --olhos: var(--olho);
+  --pupilas: var(--pupila);
+  //fragmento-mini-card
+  --mini-card-fundo: var(--miniCardCorDoFundo);
+  --mini-card-fundo-secundario: var(--miniCardCorDoFundoSecundario);
+  //fragmento-tarefas
+  --tarefas-header: var(--tarefas-cor-header);
+  --tarefas-body: var(--tarefas-cor-body);
+  --tarefas-pendente: var(--tarefas-pendentes);
+  --tarefas-progress: var(--tarefas-progresso);
+  --tarefas-concluida: var(--tarefas-concluidas);
+}
+
+[data-theme="dark"] {
+  //pagina Estilo Global Dark
+  --titulo-gradient-primeira-cor: var(--titulo-cor-um-dark);
+  --titulo-gradient-segunda-cor: var(--titulo-cor-dois-dark);
+  --titulo-gradient-terceira-cor: var(--titulo-cor-tres-dark);
+  --titulo-gradient-quarta-cor: var(--titulo-cor-quatro-dark);
+  --header-color: var(--headerColorDark);
+  --header-color-mobile: var(--headerColorDarkList);
+  --header-mini-color-mobile: var(--headerColorDarkList);
+  --fundo: var(--backgroundColorDark);
+  --footer-color: var(--footerColorDark);
+  --text-color: var(--secundaryColorDark);
+  --colapse-color: var(--colapse-bg-color-dark);
+  //fragmento-olhos
+  --olhos: var(--olhoColorDark);
+  --pupilas: var(--pupilaColorDark);
+  //fragmento-mini-card
+  --mini-card-fundo: var(--miniCardCorDoFundoDark);
+  --mini-card-fundo-secundario: var(--miniCardCorDoFundoSecundarioDark);
+  //fragmento-tarefas
+  --tarefas-header: var(--tarefas-cor-header-dark);
+  --tarefas-body: var(--tarefas-cor-body-dark);
+  --tarefas-pendente: var(--tarefas-pendentes-dark);
+  --tarefas-progress: var(--tarefas-progresso-dark);
+  --tarefas-concluida: var(--tarefas-concluidas-dark);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--fontFamily, "Poppins"), sans-serif !important;
+}
+
+#main-content {
+  .portlet-layout.row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.section-do-body {
+  margin-top: 80px;
+}
+
+.borda-redonda {
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+#wrapper {
+  color: var(--text-color);
+  background-color: var(--fundo);
+}
+
+#portlet_com_liferay_asset_categories_navigation_web_portlet_AssetCategoriesNavigationPortlet_INSTANCE_iczu,
+#portlet_com_liferay_blogs_web_portlet_BlogsPortlet,
+#portlet_com_liferay_commerce_product_content_search_web_internal_portlet_CPSearchResultsPortlet_INSTANCE_lskw,
+#portlet_com_liferay_commerce_product_content_search_web_internal_portlet_CPSearchResultsPortlet_INSTANCE_lxis,
+#portlet_com_liferay_commerce_cart_content_web_internal_portlet_CommerceCartContentPortlet_INSTANCE_nrzx,
+#portlet_com_liferay_commerce_checkout_web_internal_portlet_CommerceCheckoutPortlet,
+#portlet_com_liferay_commerce_order_content_web_internal_portlet_CommerceOrderContentPortlet,
+#portlet_com_liferay_asset_categories_navigation_web_portlet_AssetCategoriesNavigationPortlet_INSTANCE_ytvs,
+#portlet_com_liferay_notifications_web_portlet_NotificationsPortlet {
+  .portlet-content {
+    background-color: var(--fundo);
+  }
+}
+
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(0, 15px);
+  }
+
+  100% {
+    transform: translate(0, -0px);
+  }
+}
