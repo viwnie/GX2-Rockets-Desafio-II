@@ -1,1 +1,82 @@
-"# GX2-Rockets-Desafio-II" 
+# Desafio GX2 Rockets 🚀
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d85ddb7d-128e-4658-a615-5f453fd0ba12" alt="Desafio Liferay">
+</p>
+
+<p align="center">
+  <img src="https://www.gx2.com.br/wp-content/uploads/2021/05/logo-gx2-branco.png" alt="Imagem Logo GX2">
+</p>
+
+## Objetivos do desafio
+# Criar um Dashboard Personalizado
+Objetivo: Criar um dashboard personalizável com tipos diferentes de layouts onde os usuários possam inserir componentes desejados através de uma interface de "Drag and Drop".
+Detalhes:
+Tipos de Layout:
+4 tipos de Grid Layout: Uma grade simples onde os componentes podem ser arranjados em linhas e colunas.
+Drag and Drop:
+Deixar que os usuários possam arrastar, soltar, adicionar, mover e remover componentes.
+Componentes adaptáveis:
+Implementar estilos coerentes aos componentes para se adequar ao layout escolhido.
+implementar a opção de collapse para os componentes se o usuário desejar.
+Estilização:
+Utilizar CSS, SASS, Bootstrap 4 para estilizar o componente de forma atrativa e consistente.
+Implementar temas (claro/escuro) para melhorar a experiência do usuário.
+ # Criar um Componente Tarefas Pendentes
+Objetivo: Criar uma seção de tarefas pendentes que se integre com o backend para exibir e gerenciar as tarefas do usuário.
+Detalhes:
+Visual:
+Uma lista de tarefas com diferentes estados (pendente, em progresso, concluída).
+Filtros para visualizar tarefas por status, data de vencimento, prioridade, etc.
+Opção de marcar tarefas como concluídas ou editar detalhes da tarefa.
+Design responsivo e intuitivo, utilizando frameworks como Bootstrap ou Material UI.
+Integração com o Backend:
+Utilizar a API desenvolvida pelo backend para obter, criar, atualizar e deletar tarefas.
+Assegurar que as tarefas exibidas pertençam ao usuário logado.
+Manter o estado das tarefas sincronizado entre o frontend e o backend.
+Estilização:
+Utilizar CSS, SASS, Bootstrap 4 para estilizar o componente de forma atrativa e consistente com o restante do dashboard.
+# Componente Dados de cotação (Utilizando os Dados da API de Cotação)
+Objetivo: Criar um componente estilizado que exiba dados obtidos de uma API de cotação que será integrada pelos backends (ex.: cotação de moedas, ações, etc.).
+Detalhes:
+Obtenção de Dados:
+Fazer requisições a uma API de cotação (como a API de câmbio da Open Exchange Rates ou uma API de mercado financeiro) para obter os dados em tempo real.
+Implementar tratamento de erros para lidar com falhas nas requisições.
+Visualização dos Dados:
+Exibir os dados de maneira clara e informativa, utilizando gráficos, tabelas ou outros componentes visuais.
+Implementar diferentes modos de visualização (ex.: gráfico de linha para mostrar variação ao longo do tempo, tabela para comparações entre diferentes cotações).
+Estilização:
+Utilizar CSS, SASS, Bootstrap 4 para estilizar o componente de forma atrativa e consistente com o restante do dashboard.
+
+
+## Estrutura do Repositório 📂
+
+- **Desafio Estrutura:**
+  - **conteudo**
+    - **formularios**
+      - `Forms-202405242151.portlet.lar` - Arquivo para importar formulários para dentro do Liferay.
+      - `Formulário Reembolso.xml` - Arquivo em XML para copiar o formulário.
+  - **design**
+    - **fragmento**
+      - `home` - Este fragmento é o banner da página.
+    - **modelo-de-widget**
+      - `Modelo-blog.ftl` - Modelo que exibe os blogs de acordo com o tema.
+      - `Modelo-categorias.ftl` - Modelo que exibe as categorias de acordo com o tema.
+    - **modelo-pagina-exibição**
+      - `modelo-noticia` - Modelo de página que exibe as notícias de acordo com o tema.
+        - `display-page-template.json`
+        - `page-definition.json`
+  - **dist**
+    - `gx2-desafio-rocket-theme.war` - Importando este arquivo no Liferay, o tema será aplicado automaticamente.
+  - **src**
+    - **WEB-INF**
+    - **css** - Todos os arquivos utilizados para estilizar as páginas.
+    - **images** - Imagens utilizadas na criação do site.
+    - **templates** - Estrutura do Liferay como Header, Footer, Body, Login, etc.
+  - **workflow**
+    - `fluxoReembolso.ftl` - Importando este arquivo será criado um fluxo de reembolso no seu site.
+
+## Obrigado pelo seu tempo 🌟
+
+Espero que este repositório atenda às expectativas e demonstre meu comprometimento e dedicação ao desafio proposto por vocês 💚.
+
+Aguardo ansiosamente o feedback! 🚀📚👨‍🎓
