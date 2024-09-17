@@ -55,7 +55,7 @@ Implementar diferentes modos de visualização (ex.: gráfico de linha para most
        - `frontend-token-definition.json` - Arquivo onde guarda as cores padrão, este arquivo tem o objetivo de que o usuario tenha a possibilidade de editar as cores dentro do liferay.
        - `frontend-token-definition.json` - Cria classes personalizadas com o intuito de estilização ,(por exemplo para um publicador de conteudo web).
     - **css** - Todos os arquivos utilizados para estilizar as páginas.
-        -**fragmentos** - Estilização + codigo de cada fragmento criado.
+      - `fragmentos` - Estilização + codigo de cada fragmento criado.
     - **templates** - Estrutura do Liferay como Header, Footer, Body, Login, etc.
 
 ## Obrigado pelo seu tempo 🌟
