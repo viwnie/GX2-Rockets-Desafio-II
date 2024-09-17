@@ -9,6 +9,11 @@
 
 ## Objetivos do desafio
 # Criar um Dashboard Personalizado
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2d15aaf1-d2d5-4d7c-889d-414e589433c8" alt="DashBoard">
+</p>
+
+
 Objetivo: Criar um dashboard personalizável com tipos diferentes de layouts onde os usuários possam inserir componentes desejados através de uma interface de "Drag and Drop".
 Detalhes:
 Tipos de Layout:
@@ -38,7 +43,12 @@ Assegurar que as tarefas exibidas pertençam ao usuário logado.
 Manter o estado das tarefas sincronizado entre o frontend e o backend.
 Estilização:
 Utilizar CSS, SASS, Bootstrap 4 para estilizar o componente de forma atrativa e consistente com o restante do dashboard.
+
 # Componente Dados de cotação (Utilizando os Dados da API de Cotação)
+
+ <p align="center">
+  <img src="https://github.com/user-attachments/assets/5e3a2798-7bf4-4c60-8904-bdc2585de740" alt="Compoente Cotaçoes">
+</p>
 Objetivo: Criar um componente estilizado que exiba dados obtidos de uma API de cotação que será integrada pelos backends (ex.: cotação de moedas, ações, etc.).
 Detalhes:
 Obtenção de Dados:
