@@ -13,36 +13,23 @@
   <img src="https://github.com/user-attachments/assets/2d15aaf1-d2d5-4d7c-889d-414e589433c8" alt="DashBoard">
 </p>
 
-
 Objetivo: Criar um dashboard personalizável com tipos diferentes de layouts onde os usuários possam inserir componentes desejados através de uma interface de "Drag and Drop".
-Detalhes:
-Tipos de Layout:
 4 tipos de Grid Layout: Uma grade simples onde os componentes podem ser arranjados em linhas e colunas.
-Drag and Drop:
-Deixar que os usuários possam arrastar, soltar, adicionar, mover e remover componentes.
-Componentes adaptáveis:
-Implementar estilos coerentes aos componentes para se adequar ao layout escolhido.
-implementar a opção de collapse para os componentes se o usuário desejar.
-Estilização:
-Utilizar CSS, SASS, Bootstrap 4 para estilizar o componente de forma atrativa e consistente.
 Implementar temas (claro/escuro) para melhorar a experiência do usuário.
+
  # Criar um Componente Tarefas Pendentes
  <p align="center">
   <img src="https://github.com/user-attachments/assets/a9d6bbd1-d7da-4748-98f3-38549f7e3804" alt="Tarefas">
 </p>
 Objetivo: Criar uma seção de tarefas pendentes que se integre com o backend para exibir e gerenciar as tarefas do usuário.
-Detalhes:
-Visual:
 Uma lista de tarefas com diferentes estados (pendente, em progresso, concluída).
 Filtros para visualizar tarefas por status, data de vencimento, prioridade, etc.
 Opção de marcar tarefas como concluídas ou editar detalhes da tarefa.
 Design responsivo e intuitivo, utilizando frameworks como Bootstrap ou Material UI.
 Integração com o Backend:
 Utilizar a API desenvolvida pelo backend para obter, criar, atualizar e deletar tarefas.
-Assegurar que as tarefas exibidas pertençam ao usuário logado.
-Manter o estado das tarefas sincronizado entre o frontend e o backend.
-Estilização:
-Utilizar CSS, SASS, Bootstrap 4 para estilizar o componente de forma atrativa e consistente com o restante do dashboard.
+
+
 
 # Componente Dados de cotação (Utilizando os Dados da API de Cotação)
 
@@ -57,9 +44,6 @@ Implementar tratamento de erros para lidar com falhas nas requisições.
 Visualização dos Dados:
 Exibir os dados de maneira clara e informativa, utilizando gráficos, tabelas ou outros componentes visuais.
 Implementar diferentes modos de visualização (ex.: gráfico de linha para mostrar variação ao longo do tempo, tabela para comparações entre diferentes cotações).
-Estilização:
-Utilizar CSS, SASS, Bootstrap 4 para estilizar o componente de forma atrativa e consistente com o restante do dashboard.
-
 
 ## Estrutura do Repositório 📂
 
