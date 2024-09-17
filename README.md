@@ -22,6 +22,9 @@ Estilização:
 Utilizar CSS, SASS, Bootstrap 4 para estilizar o componente de forma atrativa e consistente.
 Implementar temas (claro/escuro) para melhorar a experiência do usuário.
  # Criar um Componente Tarefas Pendentes
+ <p align="center">
+  <img src="https://github.com/user-attachments/assets/a9d6bbd1-d7da-4748-98f3-38549f7e3804" alt="Tarefas">
+</p>
 Objetivo: Criar uma seção de tarefas pendentes que se integre com o backend para exibir e gerenciar as tarefas do usuário.
 Detalhes:
 Visual:
