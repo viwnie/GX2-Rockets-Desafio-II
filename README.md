@@ -48,32 +48,16 @@ Implementar diferentes modos de visualização (ex.: gráfico de linha para most
 ## Estrutura do Repositório 📂
 
 - **Desafio Estrutura:**
-  - **conteudo**
-    - **formularios**
-      - `Forms-202405242151.portlet.lar` - Arquivo para importar formulários para dentro do Liferay.
-      - `Formulário Reembolso.xml` - Arquivo em XML para copiar o formulário.
-  - **design**
-    - **fragmento**
-      - `home` - Este fragmento é o banner da página.
-    - **modelo-de-widget**
-      - `Modelo-blog.ftl` - Modelo que exibe os blogs de acordo com o tema.
-      - `Modelo-categorias.ftl` - Modelo que exibe as categorias de acordo com o tema.
-    - **modelo-pagina-exibição**
-      - `modelo-noticia` - Modelo de página que exibe as notícias de acordo com o tema.
-        - `display-page-template.json`
-        - `page-definition.json`
   - **dist**
-    - `gx2-desafio-rocket-theme.war` - Importando este arquivo no Liferay, o tema será aplicado automaticamente.
+    - `desafio-gx2-2-theme.war` - Importando este arquivo no Liferay, o tema será aplicado automaticamente.
   - **src**
     - **WEB-INF**
+       - `frontend-token-definition.json` - Arquivo onde guarda as cores padrão, este arquivo tem o objetivo de que o usuario tenha a possibilidade de editar as cores dentro do liferay.
+       - `frontend-token-definition.json` - Cria classes personalizadas com o intuito de estilização ,(por exemplo para um publicador de conteudo web).
     - **css** - Todos os arquivos utilizados para estilizar as páginas.
-    - **images** - Imagens utilizadas na criação do site.
+        -**fragmentos** - Estilização + codigo de cada fragmento criado.
     - **templates** - Estrutura do Liferay como Header, Footer, Body, Login, etc.
-  - **workflow**
-    - `fluxoReembolso.ftl` - Importando este arquivo será criado um fluxo de reembolso no seu site.
 
 ## Obrigado pelo seu tempo 🌟
-
-Espero que este repositório atenda às expectativas e demonstre meu comprometimento e dedicação ao desafio proposto por vocês 💚.
 
 Aguardo ansiosamente o feedback! 🚀📚👨‍🎓
