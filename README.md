@@ -1,6 +1,6 @@
-# Desafio GX2 Rockets 🚀
+# Desafio GX2 Rockets II 🚀
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d85ddb7d-128e-4658-a615-5f453fd0ba12" alt="Desafio Liferay">
+  <img src="https://github.com/user-attachments/assets/3a287792-540d-488d-b5fc-91e85f348ef6" alt="Desafio Liferay II">
 </p>
 
 <p align="center">
